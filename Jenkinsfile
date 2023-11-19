@@ -5,7 +5,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 // Checkout the code from your version control system (e.g., Git)
-                git ''
+                git 'https://github.com/KavithaVenugopal/my-to-do.git'
             }
         }
 
